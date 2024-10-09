@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffffce;
+  --foreground: #171717;
+
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffffce;
+    --foreground: #171717;
+    font-family: var(--font-poppins);
+    font-weight: 300;
+
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-poppins);
+  font-weight: 300;
+  
+  .header{
+    font-family: var(--font-poppins);
+    font-weight: 400;
+  }
+
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+}
+
+.poppins-main{
+  font-family: var(--font-poppins);
+  font-weight: 300;
+}
