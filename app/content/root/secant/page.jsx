@@ -25,7 +25,7 @@ export default function False_poistion() {
             return evaluate(fx, x);
         } catch (error) {
             console.error("Error evaluating the function:", error);
-            return NaN; 
+            return ; 
         }
     }
     
