@@ -2,9 +2,8 @@
 import React, { useState } from 'react';
 import { evaluate } from 'mathjs';
 import dynamic from 'next/dynamic';
-import Plot from 'react-plotly.js';
-// import MathGraph from '@/app/components/MathGraph';
-// Dynamic import for the MathGraph component
+const Plot = dynamic(() => import("react-plotly.js"), { ssr: false });
+
 
 export default function False_poistion() {
     const [xStart, set_xStart] = useState(0);

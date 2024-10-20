@@ -29,8 +29,8 @@ export default function Home() {
                 <Link href="content/linear/lu" className="hover:text-sky-800 hover:font-semibold	 text-xl block mb-2">LU Decomposition Method</Link>
                 <Link href="content/linear/cholesky" className="hover:text-sky-800 hover:font-semibold	 text-xl block mb-2">Cholesky Decomposition Method</Link>
                 <Link href="content/linear/jacobi" className="hover:text-sky-800 hover:font-semibold	 text-xl block mb-2">Jacobi Iteration Method</Link>
-                <Link href="content/linear/seidel" className="hover:text-sky-800 hover:font-semibold	 text-xl block mb-2">Gauss-Seidel Iteration Method</Link>
-                <Link href="content/linear/conjugate" className="hover:text-sky-800 hover:font-semibold	 text-xl block mb-2">Conjugate Gradient Method</Link>
+                <Link href="#" className="hover:text-sky-800 hover:font-semibold	 text-xl block mb-2">Gauss-Seidel Iteration Method</Link>
+                <Link href="#" className="hover:text-sky-800 hover:font-semibold	 text-xl block mb-2">Conjugate Gradient Method</Link>
 
               </div>
             </div>

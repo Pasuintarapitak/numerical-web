@@ -2,8 +2,7 @@
 import React, { useState } from 'react';
 import { evaluate } from 'mathjs';
 import dynamic from 'next/dynamic';
-import Plot from 'react-plotly.js';
-import MathGraph from '@/app/components/MathGraph';
+
 import { derivative } from 'mathjs';
 
 // Dynamic import for the MathGraph component

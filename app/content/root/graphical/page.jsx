@@ -5,6 +5,7 @@ import { evaluate } from 'mathjs';
 import dynamic from 'next/dynamic';
 
 
+
 export default function Graphical() {
     const [XL, setXL] = useState(0);
     const [XR, setXR] = useState(0);

@@ -2,17 +2,17 @@
 import React, { useState } from 'react';
 import { evaluate } from 'mathjs';
 import dynamic from 'next/dynamic';
-import Plot from 'react-plotly.js';
-import MathGraph from '@/app/components/MathGraph';
+const Plot = dynamic(() => import("react-plotly.js"), { ssr: false });
+// import MathGraph from '@/app/components/MathGraph';
 import { derivative } from 'mathjs';
 
 // Dynamic import for the MathGraph component
 
 export default function False_poistion() {
-    const [xStart, set_xStart] = useState(1);
-    const [xSecond , set_xSecond] = useState(1.5);
+    const [xStart, set_xStart] = useState();
+    const [xSecond , set_xSecond] = useState();
     const [error, setError] = useState(0.000001);
-    const [fx, setfx] = useState('x^2-7');
+    const [fx, setfx] = useState();
     const [results, setResults] = useState([]);
     const [isCalculated, setIsCalculated] = useState(false);
     const [graphData, setGraphData] = useState([]);
